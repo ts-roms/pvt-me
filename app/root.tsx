@@ -9,19 +9,9 @@ import {
 
 import type { Route } from "./+types/root";
 import "./app.css";
+import Navbar from "~/layouts/navbar";
+import Footer from "~/layouts/footer";
 
-export const links: Route.LinksFunction = () => [
-  { rel: "preconnect", href: "https://fonts.googleapis.com" },
-  {
-    rel: "preconnect",
-    href: "https://fonts.gstatic.com",
-    crossOrigin: "anonymous",
-  },
-  {
-    rel: "stylesheet",
-    href: "https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap",
-  },
-];
 
 export function Layout({ children }: { children: React.ReactNode }) {
   return (
@@ -33,12 +23,21 @@ export function Layout({ children }: { children: React.ReactNode }) {
         <Links />
       </head>
       <body>
+      <Navbar />
         {children}
         <ScrollRestoration />
         <Scripts />
+      <Footer />
       </body>
     </html>
   );
+}
+
+export function HydrateFallback() {
+  return <div id={"loading-splash"}>
+    <div id={"loading-splash-spinner"}/>
+    <p>Loading, please wait...</p>
+  </div>
 }
 
 export default function App() {
