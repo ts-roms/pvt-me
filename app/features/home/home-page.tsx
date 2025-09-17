@@ -13,11 +13,10 @@ import {
 
 export const HomePage = () => {
   return (
-    <main
+    <div
       className="min-h-dvh  from-white to-slate-50 text-slate-900 dark:from-slate-950
        dark:to-slate-900 dark:text-slate-100">
       <HeroBanner/>
-
       <Section id={'about-me'} title="About Me">
         <Introduction/>
       </Section>
@@ -45,6 +44,6 @@ export const HomePage = () => {
       <Section id={'contact-form'} title="Contact / Hire Me">
         <ContactForm title="Let’s work together" />
       </Section>
-    </main>
+    </div>
   )
 }

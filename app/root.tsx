@@ -13,7 +13,7 @@ import Navbar from "~/layouts/navbar";
 import Footer from "~/layouts/footer";
 
 
-export function Layout({ children }: { children: React.ReactNode }) {
+export function Layout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="en">
       <head>
@@ -23,11 +23,13 @@ export function Layout({ children }: { children: React.ReactNode }) {
         <Links />
       </head>
       <body>
+      <main className="bg-pattern bg-cover bg-center;">
       <Navbar />
         {children}
         <ScrollRestoration />
         <Scripts />
       <Footer />
+      </main>
       </body>
     </html>
   );

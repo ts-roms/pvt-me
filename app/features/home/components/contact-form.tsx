@@ -2,6 +2,9 @@ import {motion} from 'framer-motion'
 import {Card, CardContent, CardFooter, CardHeader, CardTitle} from "~/layouts/ui/card";
 import {Form} from "react-router";
 
+import { app } from '~/config/firebase';
+import { getDatabase, ref, set, push } from 'firebase/database';
+
 export const ContactForm = ({
                               title,
                             }: { title: string }) => {
@@ -38,6 +41,21 @@ export const ContactForm = ({
 
 
 function FormField() {
+
+  const handleSaveData = () => {
+    const db = getDatabase(app);
+    const newDocRef = push(ref(db, 'inquiries'));
+    set(newDocRef, {
+      name: 'sample',
+      email: 'sample',
+      message: 'sample'
+    }).then(() => {
+      console.log('Data saved successfully');
+    }).catch((error) => {
+      console.error('Error saving data:', error);
+    });
+  }
+
   return (
     <Form>
       <div className="grid gap-1.5">
@@ -48,7 +66,6 @@ function FormField() {
           type="text"
           placeholder="Your name"
           className="w-full rounded-md border border-gray-300 bg-white/80 px-3 py-2 text-sm outline-none ring-0 transition focus:border-indigo-500 focus:outline-none dark:border-gray-700 dark:bg-gray-900/60"
-          required
         />
         <p className="text-xs text-red-600 dark:text-red-400">Please enter at least 2 characters.</p>
       </div>
@@ -63,7 +80,6 @@ function FormField() {
           type="email"
           placeholder="you@example.com"
           className="w-full rounded-md border border-gray-300 bg-white/80 px-3 py-2 text-sm outline-none ring-0 transition focus:border-indigo-500 focus:outline-none dark:border-gray-700 dark:bg-gray-900/60"
-          required
         />
         <p className="text-xs text-red-600 dark:text-red-400">Please enter a valid email address.</p>
       </div>
@@ -89,6 +105,7 @@ function FormField() {
         <button
           type="submit"
           className="inline-flex items-center cursor-pointer rounded-md bg-indigo-600 px-4 py-2 text-sm font-medium text-white transition hover:bg-indigo-500 disabled:cursor-not-allowed disabled:opacity-60"
+          onClick={handleSaveData}
         >
           Send Inquiry!
         </button>

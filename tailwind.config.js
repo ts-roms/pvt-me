@@ -19,8 +19,8 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        'pattern': "url('/assets/images/pattern.png')"
-      }
+        pattern: "url('/assets/images/pattern.png')"
+      },
     },
   },
   plugins: [],
