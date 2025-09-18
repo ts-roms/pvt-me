@@ -5,9 +5,7 @@ import {Form} from "react-router";
 import { app } from '~/config/firebase';
 import { getDatabase, ref, set, push } from 'firebase/database';
 
-export const ContactForm = ({
-                              title,
-                            }: { title: string }) => {
+export const ContactForm = () => {
   return (
     <motion.div
       initial={{opacity: 0, y: 12}}
@@ -17,7 +15,7 @@ export const ContactForm = ({
     >
       <Card className="bg-white dark:bg-gray-900/40">
         <CardHeader>
-          <CardTitle className="text-xl">{title}</CardTitle>
+          <CardTitle className="text-xl">Let’s work together.</CardTitle>
         </CardHeader>
         <CardContent>
           <FormField/>

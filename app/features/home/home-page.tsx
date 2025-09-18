@@ -42,7 +42,7 @@ export const HomePage = () => {
       </Section>
 
       <Section id={'contact-form'} title="Contact / Hire Me">
-        <ContactForm title="Let’s work together" />
+        <ContactForm />
       </Section>
     </div>
   )
