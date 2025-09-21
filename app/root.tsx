@@ -12,6 +12,7 @@ import "./app.css";
 import {Navbar} from "~/components/layouts/navbar";
 import {Footer} from "~/components/layouts/footer";
 import React from "react";
+import {SpeedInsights} from "@vercel/speed-insights/react";
 
 export const links: Route.LinksFunction = () => [
   {rel: "preconnect", href: "https://fonts.googleapis.com"},
@@ -43,6 +44,7 @@ export function Layout({children}: Readonly<{ children: React.ReactNode }>) {
     </main>
     <Footer/>
     <ScrollRestoration/>
+    <SpeedInsights />
     <Scripts/>
     </body>
     </html>
