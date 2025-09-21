@@ -12,7 +12,7 @@ export const Footer = () => {
           <p>Powered by React Router v7 &copy; {year} Pvt. All rights reserved.</p>
           <nav className="flex items-center gap-4">
             {
-              links.map((link: Links) => (<Link key={link.link} to={link.link}
+              links.map((link: Links) => (<Link key={link.link} to={`#${link.link}`}
                                                 className="hover:text-indigo-600 hover:underline">{link.label}</Link>))
             }
 

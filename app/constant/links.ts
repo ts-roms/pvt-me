@@ -1,7 +1,7 @@
 export const links = [
   {
     label: "About Me",
-    link: "/about-me"
+    link: "about-me"
   },
   {
     label: "Works",

@@ -46,7 +46,7 @@ export const Navbar = () => {
           </Link>
           <div className="flex items-center gap-4">
             {
-              links.map((link: Links) => <Link key={link.link} to={link.link}
+              links.map((link: Links) => <Link key={link.link} to={`#${link.link}`}
                                                className="hover:text-indigo-600 hover:underline">{link.label}</Link>)
             }
           </div>

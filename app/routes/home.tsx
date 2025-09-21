@@ -43,27 +43,27 @@ export default function Home() {
     <div className=' from-white to-slate-50 text-slate-900 dark:from-slate-950
        dark:to-slate-900 dark:text-slate-100'>
       <HeroBanner />
-      <Section id={"about-me"} title={"About Me"}>
+      <Section id={"about-me"} title={"About Me"} className={'hidden'}>
         <Introduction />
       </Section>
 
-      <Section id={'experience'} title="Work Experience">
+      <Section id={'experience'} title="Work Experience" className={'hidden'}>
         <Experiences />
       </Section>
 
-      <Section id={'stack'} title="Tech Stack">
+      <Section id={'stack'} title="Tech Stack" className={'hidden'}>
         <TechStack />
       </Section>
-      <Section id={'education'} title="Education">
+      <Section id={'education'} title="Education" className={'hidden'}>
         <Educations />
       </Section>
-      <Section id={'projects'} title="Projects">
+      <Section id={'projects'} title="Projects" className={'hidden'}>
         <Projects />
       </Section>
-      <Section id={'feedback'} title="Feedbacks">
+      <Section id={'feedback'} title="Feedbacks" className={'hidden'}>
         <Feedbacks />
       </Section>
-      <Section id={'contact-form'} title="Contact / Hire Me">
+      <Section id={'contact-form'} title="Let's Connect">
         <InquiryForm />
       </Section>
     </div>
