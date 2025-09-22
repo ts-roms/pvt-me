@@ -13,13 +13,25 @@ import {getProfile} from "~/api/home.service";
 import type {LoaderFunctionArgs} from "react-router";
 
 export async function loader(_: LoaderFunctionArgs) {
-  const banner = await getProfile('banner');
-  const introduction = await getProfile('introduction');
-  const experiences = await getProfile('experiences');
-  const techStack = await getProfile('tech-stack');
-  const educations = await getProfile('educations');
-  const projects = await getProfile('projects');
-  const feedbacks = await getProfile('feedbacks');
+
+  const [
+    banner,
+    introduction,
+    experiences,
+    techStack,
+    educations,
+    projects,
+    feedbacks
+  ] = await Promise.all([
+    await getProfile('banner'),
+    await getProfile('introduction'),
+    await getProfile('experiences'),
+    await getProfile('tech-stack'),
+    await getProfile('educations'),
+    await getProfile('projects'),
+    await getProfile('feedbacks'),
+  ])
+
   return {
     banner,
     introduction,
@@ -43,24 +55,24 @@ export default function Home() {
     <div className=' from-white to-slate-50 text-slate-900 dark:from-slate-950
        dark:to-slate-900 dark:text-slate-100'>
       <HeroBanner />
-      <Section id={"about-me"} title={"About Me"} className={'hidden'}>
+      <Section id={"about-me"} title={"About Me"} >
         <Introduction />
       </Section>
 
-      <Section id={'experience'} title="Work Experience" className={'hidden'}>
+      <Section id={'experience'} title="Work Experience" >
         <Experiences />
       </Section>
 
-      <Section id={'stack'} title="Tech Stack" className={'hidden'}>
+      <Section id={'stack'} title="Tech Stack" >
         <TechStack />
       </Section>
-      <Section id={'education'} title="Education" className={'hidden'}>
+      <Section id={'education'} title="Education" >
         <Educations />
       </Section>
-      <Section id={'projects'} title="Projects" className={'hidden'}>
+      <Section id={'projects'} title="Projects" >
         <Projects />
       </Section>
-      <Section id={'feedback'} title="Feedbacks" className={'hidden'}>
+      <Section id={'feedback'} title="Feedbacks" >
         <Feedbacks />
       </Section>
       <Section id={'contact-form'} title="Let's Connect">

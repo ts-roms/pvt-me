@@ -18,7 +18,7 @@ export const Section = (
 ) => {
 
   return (
-    <section id={id} className={cn('mx-auto max-w-5xl px-6 py-10 md:py-5', className)}>
+    <section id={id} className={cn('mx-auto max-w-5xl px-6 py-10 md:py-8', className)}>
       <motion.h2
         initial={{opacity: 0, y: 10}}
         whileInView={{opacity: 1, y: 0}}
