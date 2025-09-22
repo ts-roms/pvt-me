@@ -11,26 +11,18 @@ import {
 } from "~/features/home";
 import {getProfile} from "~/api/home.service";
 import type {LoaderFunctionArgs} from "react-router";
+import {useEffect} from "react";
 
 export async function loader(_: LoaderFunctionArgs) {
 
-  const [
-    banner,
+  const {banner,
     introduction,
     experiences,
     techStack,
     educations,
     projects,
-    feedbacks
-  ] = await Promise.all([
-    await getProfile('banner'),
-    await getProfile('introduction'),
-    await getProfile('experiences'),
-    await getProfile('tech-stack'),
-    await getProfile('educations'),
-    await getProfile('projects'),
-    await getProfile('feedbacks'),
-  ])
+    feedbacks } = await getProfile();
+
 
   return {
     banner,
@@ -51,6 +43,7 @@ export function meta({}: Route.MetaArgs) {
 }
 
 export default function Home() {
+
   return (
     <div className=' from-white to-slate-50 text-slate-900 dark:from-slate-950
        dark:to-slate-900 dark:text-slate-100'>
@@ -58,7 +51,6 @@ export default function Home() {
       <Section id={"about-me"} title={"About Me"} >
         <Introduction />
       </Section>
-
       <Section id={'experience'} title="Work Experience" >
         <Experiences />
       </Section>

@@ -4,7 +4,7 @@ import {useLoaderData} from "react-router";
 import type {Experience} from "~/@types/experience";
 
 
-export const Experiences = async () => {
+export const Experiences =  () => {
   const {experiences} = useLoaderData();
   return (
     <div className="grid grid-4">
@@ -26,7 +26,7 @@ export const Experiences = async () => {
 }
 
 function ExperienceItem({exp}: Readonly<{
-  exp: { role: string, period: string, company: string, description?: string }
+  exp: Experience
 }>) {
 
   return (

@@ -1,0 +1,121 @@
+{
+  "banner": {
+    "welcome": "Welcome",
+    "iam": "Hi, I`m Roms",
+    "title": "Web Developer",
+    "description": "I craft reliable, delightful web experiences."
+  },
+  "introduction": {
+    "heading": "Professional Introduction",
+    "paragraphs": [
+      "I'm a Software Engineer specializing in building fast, reliable, and delightful web applications.",
+      "I enjoy crafting clean, scalable frontends with React/Next.js and thoughtful UX, and I collaborate closely with teams to ship features that matter."
+    ],
+    "highlights": [
+      "Frontend: React, Next.js, TypeScript, Tailwind",
+      "Animation/UI: Framer Motion, shadcn/ui",
+      "Practices: Performance, Accessibility, DX, Reusability"
+    ]
+  },
+  "experiences": [
+    {
+      "company": "TechCorp Inc.",
+      "role": "Senior Software Engineer",
+      "period": "2023 — Present",
+      "description": "Leading the development of scalable web applications with React, Next.js, and Node.js. Mentoring engineers and driving best practices."
+    },
+    {
+      "company": "Innovate Labs",
+      "role": "Full‑Stack Engineer",
+      "period": "2021 — 2023",
+      "description": "Built end‑to‑end product features across the stack. Focused on performance, accessibility, and DX improvements."
+    },
+    {
+      "company": "Startup XYZ",
+      "role": "Frontend Engineer",
+      "period": "2019 — 2021",
+      "description": "Shipped UI components and design systems with React, Tailwind, and Storybook; collaborated closely with design and product teams."
+    }
+  ],
+  "techStack": [
+    {
+      "label":"Core",
+      "items": [
+        "TypeScript", "JavaScript", "Node.js"
+      ]
+    },
+    {
+      "label":"Frontend",
+      "items": [
+        "React", "Next.js", "Tailwind CSS", "shadcn/ui", "Framer Motion"
+      ]
+    },
+    {
+      "label":"Backend & APIs",
+      "items": [
+        "Express", "tRPC/REST", "JWT/Auth", "Prisma"
+      ]
+    },
+    {
+      "label":"Tools",
+      "items": [
+        "Git", "Nx", "Vite", "Jest", "Playwright"
+      ]
+    }
+  ],
+  "educations": [
+    {
+      "school": "University of Technology",
+      "degree": "B.S. in Computer Science",
+      "period": "2015 — 2019",
+      "description": "Graduated with honors. Specialized in Web Engineering and Human‑Computer Interaction."
+    }
+  ],
+  "projects": [
+    {
+      "name": "Portfolio Starter",
+      "description": "A lightweight portfolio template using Next.js, Tailwind CSS, and shadcn/ui components.",
+      "technologies": ["Next.js", "Tailwind", "shadcn/ui"],
+      "link": "#"
+    },
+    {
+      "name": "Motion Gallery",
+      "description": "Image gallery with smooth animations powered by Framer Motion and optimized images.",
+      "technologies": ["Framer Motion", "React", "Next/Image"],
+      "link": "#"
+    },
+    {
+      "name": "API Toolkit",
+      "description": "Reusable API client with type‑safe endpoints and caching utilities.",
+      "technologies": ["TypeScript", "React Query", "Node.js"],
+      "link": "#"
+    }
+  ],
+  "feedbacks": [
+    {
+      "name": "Jane Doe",
+      "role": "Product Manager",
+      "company": "Acme Co.",
+      "rating": 5,
+      "feedback": "Rommel consistently delivered high‑quality features on time and communicated clearly throughout the project."
+    },
+    {
+      "name": "John Smith",
+      "role": "CTO",
+      "company": "Startup XYZ",
+      "rating": 5,
+      "feedback": "Great developer experience focus. Our frontend performance improved noticeably after his refactors."
+    },
+    {
+      "name": "Maria Garcia",
+      "role": "Founder",
+      "company": "Craft Studio",
+      "rating": 4,
+      "feedback": "Professional and thoughtful. Loved the attention to accessibility and details in UI interactions."
+    }
+  ]
+
+
+
+
+}
