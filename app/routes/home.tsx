@@ -11,18 +11,17 @@ import {
 } from "~/features/home";
 import {getProfile} from "~/api/home.service";
 import type {LoaderFunctionArgs} from "react-router";
-import {useEffect} from "react";
 
 export async function loader(_: LoaderFunctionArgs) {
-
-  const {banner,
+  const {
+    banner,
     introduction,
     experiences,
     techStack,
     educations,
     projects,
-    feedbacks } = await getProfile();
-
+    feedbacks
+  } = await getProfile();
 
   return {
     banner,
@@ -37,8 +36,8 @@ export async function loader(_: LoaderFunctionArgs) {
 
 export function meta({}: Route.MetaArgs) {
   return [
-    {title: "New React Router App"},
-    {name: "description", content: "Welcome to React Router!"},
+    {title: "Pvt Hub"},
+    {name: "description", content: "Welcome to My Portfolio!"},
   ];
 }
 
@@ -47,28 +46,28 @@ export default function Home() {
   return (
     <div className=' from-white to-slate-50 text-slate-900 dark:from-slate-950
        dark:to-slate-900 dark:text-slate-100'>
-      <HeroBanner />
-      <Section id={"about-me"} title={"About Me"} >
-        <Introduction />
+      <HeroBanner/>
+      <Section id={"about-me"} title={"Professional Overview"}>
+        <Introduction/>
       </Section>
-      <Section id={'experience'} title="Work Experience" >
-        <Experiences />
+      <Section id={'experience'} title="Work Experience">
+        <Experiences/>
       </Section>
 
-      <Section id={'stack'} title="Tech Stack" >
-        <TechStack />
+      <Section id={'stack'} title="Tech Stack">
+        <TechStack/>
       </Section>
-      <Section id={'education'} title="Education" >
-        <Educations />
+      <Section id={'education'} title="Education">
+        <Educations/>
       </Section>
-      <Section id={'projects'} title="Projects" >
-        <Projects />
+      <Section id={'projects'} title="Projects">
+        <Projects/>
       </Section>
-      <Section id={'feedback'} title="Feedbacks" >
-        <Feedbacks />
+      <Section id={'feedback'} title="Feedbacks">
+        <Feedbacks/>
       </Section>
       <Section id={'contact-form'} title="Let's Connect">
-        <InquiryForm />
+        <InquiryForm/>
       </Section>
     </div>
   );

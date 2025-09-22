@@ -15,6 +15,7 @@ export const Educations = () => {
             viewport={{once: true, margin: '-100px'}}
             transition={{duration: 0.35, delay: idx * 0.05}}
             key={edu.school}
+            className="pb-5"
           >
             <EducationItem edu={edu}/>
 

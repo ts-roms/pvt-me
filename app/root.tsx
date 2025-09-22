@@ -1,3 +1,4 @@
+import React from 'react';
 import {
   isRouteErrorResponse,
   Links,
@@ -11,7 +12,6 @@ import type {Route} from "./+types/root";
 import "./app.css";
 import {Navbar} from "~/components/layouts/navbar";
 import {Footer} from "~/components/layouts/footer";
-import React from "react";
 import {SpeedInsights} from "@vercel/speed-insights/react";
 
 export const links: Route.LinksFunction = () => [
@@ -36,7 +36,7 @@ export function Layout({children}: Readonly<{ children: React.ReactNode }>) {
     <head>
       <meta charSet="utf-8"/>
       <meta name="viewport" content="width=device-width, initial-scale=1"/>
-      <title>PVT Me</title>
+      <title>Pvt Hub</title>
       <Meta/>
       <Links/>
     </head>

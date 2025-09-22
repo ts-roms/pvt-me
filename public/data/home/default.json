@@ -3,7 +3,7 @@
     "welcome": "Welcome",
     "iam": "Hi, I`m Roms",
     "title": "Web Developer",
-    "description": "I craft reliable, delightful web experiences."
+    "description": "Results-Driven full-stack developer with hands-on experience in React, Nodejs and MongoDB. Skilled in translating\nbusiness requirements into scalable solutions. Building reusable components, and leading development team. Adept\nat code reviews, unit testing, and deployment processes, ensuring high-quality deliveries and smooth project\nexecution."
   },
   "introduction": {
     "heading": "Professional Introduction",
@@ -25,49 +25,112 @@
       "description": "Leading the development of scalable web applications with React, Next.js, and Node.js. Mentoring engineers and driving best practices."
     },
     {
-      "company": "Innovate Labs",
-      "role": "Full‑Stack Engineer",
-      "period": "2021 — 2023",
+      "company": "StarTechUp Inc",
+      "role": "Full‑Stack Developer",
+      "period": "Sept 2022 — Jan. 2023",
       "description": "Built end‑to‑end product features across the stack. Focused on performance, accessibility, and DX improvements."
     },
     {
-      "company": "Startup XYZ",
-      "role": "Frontend Engineer",
-      "period": "2019 — 2021",
+      "company": "Accenture Inc. PH",
+      "role": "Application Developer",
+      "period": "Feb. 2021 — Sept. 2022",
+      "description": "Shipped UI components and design systems with React, Tailwind, and Storybook; collaborated closely with design and product teams."
+    },
+    {
+      "company": "Desk BPO Services (formerly Deskma)",
+      "role": "Full-stack developer",
+      "period": "Apr. 2019 — Feb. 2021",
+      "description": "Shipped UI components and design systems with React, Tailwind, and Storybook; collaborated closely with design and product teams."
+    },
+    {
+      "company": "Jinisys Software Inc.",
+      "role": "Software Engineer",
+      "period": "Feb. 2018 — Apr. 2019",
+      "description": "Shipped UI components and design systems with React, Tailwind, and Storybook; collaborated closely with design and product teams."
+    },
+    {
+      "company": "RD Pawnshop Inc.",
+      "role": "Software Engineer",
+      "period": "Nov 2017 — Feb. 2018",
+      "description": "Shipped UI components and design systems with React, Tailwind, and Storybook; collaborated closely with design and product teams."
+    },
+    {
+      "company": "Wizard I.T. Systems Inc.",
+      "role": "Web Developer",
+      "period": "Feb. 2016 — Jul. 2017",
       "description": "Shipped UI components and design systems with React, Tailwind, and Storybook; collaborated closely with design and product teams."
     }
   ],
   "techStack": [
     {
-      "label":"Core",
+      "label": "Core",
       "items": [
-        "TypeScript", "JavaScript", "Node.js"
+        "TypeScript",
+        "JavaScript",
+        "Node.js"
       ]
     },
     {
-      "label":"Frontend",
+      "label": "Frontend",
       "items": [
-        "React", "Next.js", "Tailwind CSS", "shadcn/ui", "Framer Motion"
+        "React",
+        "Next.js",
+        "Tailwind CSS",
+        "ShadCN/ui",
+        "Framer Motion",
+        "Redux/RTQ",
+        "AntDesign",
+        "MaterialUI",
+        "Styled-Components"
       ]
     },
     {
-      "label":"Backend & APIs",
+      "label": "Backend & APIs",
       "items": [
-        "Express", "tRPC/REST", "JWT/Auth", "Prisma"
+        "Express",
+        "NodeJs",
+        "NestJs",
+        "GraphQL",
+        "JWT/Auth",
+        "Rest API"
       ]
     },
     {
-      "label":"Tools",
+      "label": "Databases",
       "items": [
-        "Git", "Nx", "Vite", "Jest", "Playwright"
+        "MongoDB",
+        "MySQL",
+        "MSSQL",
+        "PostGreSql",
+        "DynamoDB",
+        "Firebase RealTime Database"
+      ]
+    },
+    {
+      "label": "Tools",
+      "items": [
+        "Git",
+        "Nx",
+        "Vite",
+        "Jest",
+        "Playwright",
+        "Github",
+        "GitLab",
+        "BitBucket"
       ]
     }
   ],
   "educations": [
     {
-      "school": "University of Technology",
+      "school": "Saint Michael College of Caraga",
       "degree": "B.S. in Computer Science",
-      "period": "2015 — 2019",
+      "period": "2011 — 2014",
+      "description": "Graduated with honors. Specialized in Web Engineering and Human‑Computer Interaction."
+    },
+    {
+      "school": "Saint Michael College of Caraga",
+      "degree": "Computer Programming NC-IV - Vocational Course",
+      "period": "2009 — 2011",
       "description": "Graduated with honors. Specialized in Web Engineering and Human‑Computer Interaction."
     }
   ],
@@ -75,19 +138,31 @@
     {
       "name": "Portfolio Starter",
       "description": "A lightweight portfolio template using Next.js, Tailwind CSS, and shadcn/ui components.",
-      "technologies": ["Next.js", "Tailwind", "shadcn/ui"],
+      "technologies": [
+        "Next.js",
+        "Tailwind",
+        "shadcn/ui"
+      ],
       "link": "#"
     },
     {
       "name": "Motion Gallery",
       "description": "Image gallery with smooth animations powered by Framer Motion and optimized images.",
-      "technologies": ["Framer Motion", "React", "Next/Image"],
+      "technologies": [
+        "Framer Motion",
+        "React",
+        "Next/Image"
+      ],
       "link": "#"
     },
     {
       "name": "API Toolkit",
       "description": "Reusable API client with type‑safe endpoints and caching utilities.",
-      "technologies": ["TypeScript", "React Query", "Node.js"],
+      "technologies": [
+        "TypeScript",
+        "React Query",
+        "Node.js"
+      ],
       "link": "#"
     }
   ],
@@ -114,8 +189,4 @@
       "feedback": "Professional and thoughtful. Loved the attention to accessibility and details in UI interactions."
     }
   ]
-
-
-
-
 }
