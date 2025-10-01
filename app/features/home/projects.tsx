@@ -37,16 +37,6 @@ function ProjectCard({project}: Readonly<{
       <CardHeader>
         <CardTitle className="flex items-center justify-between">
           <span>{project.name}</span>
-          {project.link ? (
-            <a
-              href={project.link}
-              target="_blank"
-              rel="noreferrer"
-              className="text-sm font-medium text-indigo-600 hover:underline"
-            >
-              View
-            </a>
-          ) : null}
         </CardTitle>
         {project.technologies && project.technologies.length > 0 ? (
           <CardDescription>{project.technologies.join(' • ')}</CardDescription>

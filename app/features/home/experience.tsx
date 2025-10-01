@@ -39,7 +39,10 @@ function ExperienceItem({exp}: Readonly<{
         <CardDescription className="text-gray-600 dark:text-gray-400">{exp.company}</CardDescription>
       </CardHeader>
       <CardContent>
-        <p className="text-sm leading-relaxed text-gray-700 dark:text-gray-300">{exp.description}</p>
+        { exp.description && <p className="text-sm leading-relaxed text-gray-700 dark:text-gray-300">{exp.description}</p> }
+        <ul className={ "mt-2 list-disc space-y-1 pl-5 text-gray-700 dark:text-gray-300"}>
+          {exp.responsibilities.map((r, idx) => <li key={idx}>{r}</li>)}
+        </ul>
       </CardContent>
     </Card>
   )

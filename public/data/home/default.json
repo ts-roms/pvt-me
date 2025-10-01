@@ -12,53 +12,87 @@
       "I enjoy crafting clean, scalable frontends with React/Next.js and thoughtful UX, and I collaborate closely with teams to ship features that matter."
     ],
     "highlights": [
-      "Frontend: React, Next.js, TypeScript, Tailwind",
-      "Animation/UI: Framer Motion, shadcn/ui",
-      "Practices: Performance, Accessibility, DX, Reusability"
+      "Frontend: React, Next.js, TypeScript, Tailwind Css, Mantine UI, Redux/RTQ, Storybook, Jest, Playwright,",
+      "Backend: Node.js, Express, NestJs, GraphQL, MongoDB, MySQL, DynamoDB, Firebase RealTime Database, Rest API",
+      "Animation/UI: Framer Motion, ShadCn/ui",
+      "Practices: Performance, Accessibility, Reusability"
     ]
   },
   "experiences": [
     {
-      "company": "TechCorp Inc.",
+      "company": "8C DigIT",
       "role": "Senior Software Engineer",
-      "period": "2023 — Present",
-      "description": "Leading the development of scalable web applications with React, Next.js, and Node.js. Mentoring engineers and driving best practices."
+      "period": "Jan 2023 — Present",
+      "description": "Led full-stack development with React (Mantine UI), Node.js, and MongoDB, delivering scalable, tested, and seamlessly deployed applications.",
+      "responsibilities": [
+        "Reviewed and analyzed Functional Requirements Documents to produce accurate estimates and implementation plans.",
+        "Designed modular, reusable components to enhance scalability, maintainability and code quality.",
+        "Developed and executed unit tests to ensure robust functionality and minimize regressions."
+      ]
     },
     {
       "company": "StarTechUp Inc",
       "role": "Full‑Stack Developer",
       "period": "Sept 2022 — Jan. 2023",
-      "description": "Built end‑to‑end product features across the stack. Focused on performance, accessibility, and DX improvements."
+      "description": "Contributed to a mobile-first social media app using React (TypeScript) and Node.js, enhancing UI/UX, implementing reports, and improving scalability and performance.",
+      "responsibilities": [
+        "Helped standardize UI components and enhance UX/UI for a consistent, responsive user experience.",
+        "Assisted in reviewing designs and implementing graph-based reports to track key metrics and inform decisions.",
+        "Supported improving features for greater scalability, performance, and maintainability."
+      ]
     },
     {
       "company": "Accenture Inc. PH",
       "role": "Application Developer",
       "period": "Feb. 2021 — Sept. 2022",
-      "description": "Shipped UI components and design systems with React, Tailwind, and Storybook; collaborated closely with design and product teams."
+      "description": "Developed and maintained responsive front-end features for e-commerce and insurance websites using React (TypeScript), integrating APIs, optimizing designs, and ensuring best practices across the development lifecycle.",
+      "responsibilities": [
+        "Contributed to daily stand-ups, conducted code reviews, and upheld best practices across the development lifecycle.",
+        "Translated designs into optimized, production-ready code in close collaboration with architects and the team.",
+        "Integrated RESTful APIs, third-party services, and wrote unit tests to ensure a seamless, scalable user experience."
+      ]
     },
     {
       "company": "Desk BPO Services (formerly Deskma)",
       "role": "Full-stack developer",
       "period": "Apr. 2019 — Feb. 2021",
-      "description": "Shipped UI components and design systems with React, Tailwind, and Storybook; collaborated closely with design and product teams."
+      "responsibilities": [
+        "Designed and built responsive, mobile-optimized websites and interfaces using React.js and TYPO3, ensuring a seamless user experience.",
+        "Partnered with backend developers (Laravel), designers, and marketing teams to maintain brand consistency and align features with business goals.",
+        "Integrated RESTful APIs and supported backend teams by troubleshooting and enhancing data flow across the stack.",
+        "Developed, deployed, and refactored scalable, maintainable components to boost performance, reliability, and user engagement."
+      ]
     },
     {
       "company": "Jinisys Software Inc.",
       "role": "Software Engineer",
       "period": "Feb. 2018 — Apr. 2019",
-      "description": "Shipped UI components and design systems with React, Tailwind, and Storybook; collaborated closely with design and product teams."
+      "responsibilities": [
+        "Built and maintained a C# WinForms desktop app with a focus on clean, maintainable code.",
+        "Worked closely with cross-functional teams to capture requirements and deliver new features.",
+        "Optimized MySQL queries and schema for efficient data handling and performance.",
+        "Reviewed code and provided constructive feedback to ensure high-quality, scalable solutions."
+      ]
     },
     {
       "company": "RD Pawnshop Inc.",
       "role": "Software Engineer",
       "period": "Nov 2017 — Feb. 2018",
-      "description": "Shipped UI components and design systems with React, Tailwind, and Storybook; collaborated closely with design and product teams."
+      "responsibilities": [
+        "Refactored and maintained the in-house C# WinForms desktop application to boost performance and reliability.",
+        "Conducted dry-run testing and validated functionality to ensure data accuracy and efficiency."
+      ]
+
     },
     {
       "company": "Wizard I.T. Systems Inc.",
       "role": "Web Developer",
       "period": "Feb. 2016 — Jul. 2017",
-      "description": "Shipped UI components and design systems with React, Tailwind, and Storybook; collaborated closely with design and product teams."
+      "description": "Shipped UI components and design systems with React, Tailwind, and Storybook; collaborated closely with design and product teams.",
+      "responsibilities": [
+        "Designed and built front-end applications using native HTML, Bootstrap, CSS, and vanilla JavaScript, with reusable components and client-side rendering via AJAX.",
+        "Developed PHP server-side logic with MySQL (including stored procedures) to support dynamic content and efficient data handling."
+      ]
     }
   ],
   "techStack": [
@@ -136,56 +170,93 @@
   ],
   "projects": [
     {
-      "name": "Portfolio Starter",
-      "description": "A lightweight portfolio template using Next.js, Tailwind CSS, and shadcn/ui components.",
+      "name": "Loan Management System",
+      "description": "A Loan Management System that streamlines loan applications, approvals, and tracking to improve efficiency and user experience.",
       "technologies": [
-        "Next.js",
-        "Tailwind",
-        "shadcn/ui"
-      ],
-      "link": "#"
-    },
-    {
-      "name": "Motion Gallery",
-      "description": "Image gallery with smooth animations powered by Framer Motion and optimized images.",
-      "technologies": [
-        "Framer Motion",
         "React",
-        "Next/Image"
+        "Mantine UI",
+        "NodeJs/Express",
+        "Tailwind CSS",
+        "MongoDB"
       ],
       "link": "#"
     },
     {
-      "name": "API Toolkit",
-      "description": "Reusable API client with type‑safe endpoints and caching utilities.",
+      "name": "Social Media Platform (Feety)",
+      "description": "A mobile-first social media platform for foot enthusiasts to connect, share, and engage through an intuitive and responsive experience.",
       "technologies": [
+        "React",
+        "Tailwind CSS",
+        "NodeJs/Express",
+        "MongoDB"
+      ],
+      "link": "#"
+    },
+    {
+      "name": "eCommerce Website",
+      "description": "An eCommerce website for wine that streamlines online sales, enhances customer experience, and simplifies product discovery and purchase.",
+      "technologies": [
+        "React",
         "TypeScript",
-        "React Query",
-        "Node.js"
+        "Tailwind CSS",
+        "Contentful",
+        "AWS/DynamoDB"
+      ],
+      "link": "#"
+    },
+    {
+      "name": "Health Insurance Web Application",
+      "description": "A health insurance website that simplifies policy browsing, enrollment, and management for an accessible and user-friendly experience.",
+      "technologies": [
+        "React",
+        "TypeScript",
+        "Tailwind CSS"
+      ],
+      "link": "#"
+    },
+    {
+      "name": "CRM System",
+      "description": "A Customer Relationship Management (CRM) system that helps businesses manage client interactions, track leads, and streamline sales processes for better customer engagement.",
+      "technologies": [
+        "React",
+        "Laravel",
+        "PHP",
+        "MySQL"
+      ],
+      "link": "#"
+    },
+    {
+      "name": "Social Media Platform (Dougly)",
+      "description": "A social media platform for dog lovers that fosters community, sharing, and engagement through an intuitive and enjoyable experience.",
+      "technologies": [
+        "React",
+        "Laravel",
+        "PHP",
+        "MySQL"
       ],
       "link": "#"
     }
   ],
   "feedbacks": [
     {
-      "name": "Jane Doe",
-      "role": "Product Manager",
-      "company": "Acme Co.",
-      "rating": 5,
-      "feedback": "Rommel consistently delivered high‑quality features on time and communicated clearly throughout the project."
-    },
-    {
-      "name": "John Smith",
-      "role": "CTO",
-      "company": "Startup XYZ",
+      "name": "Donniver Agnes ",
+      "role": "Head of Information Technology Operations",
+      "company": "8C DigIT",
       "rating": 5,
       "feedback": "Great developer experience focus. Our frontend performance improved noticeably after his refactors."
     },
     {
-      "name": "Maria Garcia",
-      "role": "Founder",
-      "company": "Craft Studio",
-      "rating": 4,
+      "name": "Jason Hinanay",
+      "role": "Head of System Development",
+      "company": "8C DigIT",
+      "rating": 5,
+      "feedback": "Roms consistently delivered high‑quality features on time and communicated clearly throughout the project."
+    },
+    {
+      "name": "Maritess Ostan",
+      "role": "Team Lead for Quality Assurance",
+      "company": "8C DigIT",
+      "rating": 5,
       "feedback": "Professional and thoughtful. Loved the attention to accessibility and details in UI interactions."
     }
   ]
