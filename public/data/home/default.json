@@ -235,6 +235,16 @@
         "MySQL"
       ],
       "link": "#"
+    },
+    {
+      "name": "Simple Accounting with Inventory and POS and Time In/Out Feat.",
+      "description": "A simple accounting with inventory together with POS and Employee Time logs tracking. also include the RBAC.",
+      "technologies": [
+        "React/NextJs",
+        "Tailwind CSS",
+        "MirageJs"
+      ],
+      "link": "https://pvt-accounting.vercel.app/"
     }
   ],
   "feedbacks": [
