@@ -178,8 +178,7 @@
         "NodeJs/Express",
         "Tailwind CSS",
         "MongoDB"
-      ],
-      "link": "#"
+      ]
     },
     {
       "name": "Social Media Platform (Feety)",
@@ -189,8 +188,7 @@
         "Tailwind CSS",
         "NodeJs/Express",
         "MongoDB"
-      ],
-      "link": "#"
+      ]
     },
     {
       "name": "eCommerce Website",
@@ -201,8 +199,7 @@
         "Tailwind CSS",
         "Contentful",
         "AWS/DynamoDB"
-      ],
-      "link": "#"
+      ]
     },
     {
       "name": "Health Insurance Web Application",
@@ -211,8 +208,7 @@
         "React",
         "TypeScript",
         "Tailwind CSS"
-      ],
-      "link": "#"
+      ]
     },
     {
       "name": "CRM System",
@@ -222,8 +218,7 @@
         "Laravel",
         "PHP",
         "MySQL"
-      ],
-      "link": "#"
+      ]
     },
     {
       "name": "Social Media Platform (Dougly)",
@@ -233,8 +228,7 @@
         "Laravel",
         "PHP",
         "MySQL"
-      ],
-      "link": "#"
+      ]
     },
     {
       "name": "Simple Accounting with Inventory and POS and Time In/Out Feat.",
