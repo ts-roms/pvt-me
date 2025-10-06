@@ -2,6 +2,7 @@ import {motion} from 'framer-motion';
 import {Card, CardContent, CardDescription, CardHeader, CardTitle} from "~/components/ui/card";
 import {useLoaderData} from "react-router";
 import type {Experience} from "~/@types/experience";
+import {calculateServiceLength} from "~/utils/service-length";
 
 
 export const Experiences =  () => {
@@ -34,14 +35,17 @@ function ExperienceItem({exp}: Readonly<{
       <CardHeader>
         <CardTitle className="flex flex-col gap-1 md:flex-row md:items-baseline md:justify-between">
           <span className="font-semibold">{exp.role}</span>
-          <span className="text-sm font-normal text-gray-500">{exp.period}</span>
+          <div className="">
+            <span className="text-sm font-normal text-gray-500">{exp.period}</span><br />
+            <span className="text-sm font-normal text-gray-600">{calculateServiceLength(exp.period)}</span>
+          </div>
         </CardTitle>
         <CardDescription className="text-gray-600 dark:text-gray-400">{exp.company}</CardDescription>
       </CardHeader>
       <CardContent>
         { exp.description && <p className="text-sm leading-relaxed text-gray-700 dark:text-gray-300">{exp.description}</p> }
         <ul className={ "mt-2 list-disc space-y-1 pl-5 text-gray-700 dark:text-gray-300"}>
-          {exp.responsibilities.map((r, idx) => <li key={idx}>{r}</li>)}
+          {exp.responsibilities.map((r: string) => <li key={r}>{r}</li>)}
         </ul>
       </CardContent>
     </Card>

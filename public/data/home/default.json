@@ -20,20 +20,21 @@
   },
   "experiences": [
     {
-      "company": "8C DigIT",
+      "company": "Novare Technologies Inc.",
       "role": "Senior Software Engineer",
-      "period": "Jan 2023 — Present",
-      "description": "Led full-stack development with React (Mantine UI), Node.js, and MongoDB, delivering scalable, tested, and seamlessly deployed applications.",
+      "period": "Feb 2023 — Present",
+      "description": "Responsible for designing, developing, and maintaining high-quality software solutions while ensuring best practices is coding, integrations and documentation.",
       "responsibilities": [
-        "Reviewed and analyzed Functional Requirements Documents to produce accurate estimates and implementation plans.",
-        "Designed modular, reusable components to enhance scalability, maintainability and code quality.",
-        "Developed and executed unit tests to ensure robust functionality and minimize regressions."
+        "Develops, test, and deploys robust application solution based on client requirements.",
+        "Conducts code reviews to ensure adherence to coding standards and best practices, and mentors team members to maintain code quality.",
+        "Document system design, deployment process and technical issues for maintainability",
+        "Collaborates with lead engineers to enhance development workflows and explore new technologies."
       ]
     },
     {
       "company": "StarTechUp Inc",
       "role": "Full‑Stack Developer",
-      "period": "Sept 2022 — Jan. 2023",
+      "period": "Sept 2022 — Feb. 2023",
       "description": "Contributed to a mobile-first social media app using React (TypeScript) and Node.js, enhancing UI/UX, implementing reports, and improving scalability and performance.",
       "responsibilities": [
         "Helped standardize UI components and enhance UX/UI for a consistent, responsive user experience.",
@@ -245,21 +246,18 @@
     {
       "name": "Donniver Agnes ",
       "role": "Head of Information Technology Operations",
-      "company": "8C DigIT",
       "rating": 5,
       "feedback": "Great developer experience focus. Our frontend performance improved noticeably after his refactors."
     },
     {
       "name": "Jason Hinanay",
       "role": "Head of System Development",
-      "company": "8C DigIT",
       "rating": 5,
       "feedback": "Roms consistently delivered high‑quality features on time and communicated clearly throughout the project."
     },
     {
       "name": "Maritess Ostan",
       "role": "Team Lead for Quality Assurance",
-      "company": "8C DigIT",
       "rating": 5,
       "feedback": "Professional and thoughtful. Loved the attention to accessibility and details in UI interactions."
     }

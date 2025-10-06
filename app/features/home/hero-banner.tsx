@@ -3,6 +3,7 @@ import {useLoaderData} from "react-router";
 
 export const HeroBanner = () => {
   const {banner} = useLoaderData();
+  console.log({ banner })
   return (
     <section className="relative overflow-hidden py-16 md:py-24">
       <motion.div
