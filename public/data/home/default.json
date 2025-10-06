@@ -169,79 +169,110 @@
       "description": ""
     }
   ],
-  "projects": [
-    {
-      "name": "Loan Management System",
-      "description": "A Loan Management System that streamlines loan applications, approvals, and tracking to improve efficiency and user experience.",
-      "technologies": [
-        "React",
-        "Mantine UI",
-        "NodeJs/Express",
-        "Tailwind CSS",
-        "MongoDB"
-      ]
-    },
-    {
-      "name": "Social Media Platform (Feety)",
-      "description": "A mobile-first social media platform for foot enthusiasts to connect, share, and engage through an intuitive and responsive experience.",
-      "technologies": [
-        "React",
-        "Tailwind CSS",
-        "NodeJs/Express",
-        "MongoDB"
-      ]
-    },
-    {
-      "name": "eCommerce Website",
-      "description": "An eCommerce website for wine that streamlines online sales, enhances customer experience, and simplifies product discovery and purchase.",
-      "technologies": [
-        "React",
-        "TypeScript",
-        "Tailwind CSS",
-        "Contentful",
-        "AWS/DynamoDB"
-      ]
-    },
-    {
-      "name": "Health Insurance Web Application",
-      "description": "A health insurance website that simplifies policy browsing, enrollment, and management for an accessible and user-friendly experience.",
-      "technologies": [
-        "React",
-        "TypeScript",
-        "Tailwind CSS"
-      ]
-    },
-    {
-      "name": "CRM System",
-      "description": "A Customer Relationship Management (CRM) system that helps businesses manage client interactions, track leads, and streamline sales processes for better customer engagement.",
-      "technologies": [
-        "React",
-        "Laravel",
-        "PHP",
-        "MySQL"
-      ]
-    },
-    {
-      "name": "Social Media Platform (Dougly)",
-      "description": "A social media platform for dog lovers that fosters community, sharing, and engagement through an intuitive and enjoyable experience.",
-      "technologies": [
-        "React",
-        "Laravel",
-        "PHP",
-        "MySQL"
-      ]
-    },
-    {
-      "name": "Simple Accounting with Inventory and POS and Time In/Out Feat.",
-      "description": "A simple accounting with inventory together with POS and Employee Time logs tracking. also include the RBAC.",
-      "technologies": [
-        "React/NextJs",
-        "Tailwind CSS",
-        "MirageJs"
-      ],
-      "link": "https://pvt-accounting.vercel.app/"
-    }
-  ],
+  "projects": {
+    "description": "Hands-on experience in full-cycle project development, from planning and implementation to optimization and deployment--across diverse business solutions.",
+    "projects": [
+      {
+        "name": "Marketing Sites",
+        "description": "Dynamic, mobile-optimized marketing platforms that highlight brand identity, promotions, and customer engagement for Red Ribbon, Burger King and Greenwich.",
+        "technologies": [
+          "React",
+          "NextJs",
+          "Nx",
+          "Tailwind CSS",
+          "Redux/RTQ",
+          "Zustand"
+        ]
+      },
+      {
+        "name": "Order Manager",
+        "description": "An intuitive Order Manager that simplifies order processing, inventory updates, and customer coordination in one dashboard.",
+        "technologies": [
+          "React",
+          "NextJs",
+          "Tailwind CSS",
+          "Redux/RTQ",
+          "Zustand"
+        ]
+      },
+      {
+        "name": "Loan Management System",
+        "description": "A Loan Management System that streamlines loan applications, approvals, and tracking to improve efficiency and user experience.",
+        "technologies": [
+          "React",
+          "NextJs",
+          "Mantine UI",
+          "NodeJs/Express",
+          "Tailwind CSS",
+          "MongoDB"
+        ]
+      },
+      {
+        "name": "Social Media Platform (Feety)",
+        "description": "A mobile-first social media platform for foot enthusiasts to connect, share, and engage through an intuitive and responsive experience.",
+        "technologies": [
+          "React",
+          "Tailwind CSS",
+          "NodeJs/Express",
+          "MongoDB"
+        ]
+      },
+      {
+        "name": "eCommerce Website",
+        "description": "An eCommerce website for wine that streamlines online sales, enhances customer experience, and simplifies product discovery and purchase.",
+        "technologies": [
+          "React",
+          "TypeScript",
+          "Tailwind CSS",
+          "Contentful",
+          "AWS/DynamoDB"
+        ]
+      },
+      {
+        "name": "Health Insurance Web Application",
+        "description": "A health insurance website that simplifies policy browsing, enrollment, and management for an accessible and user-friendly experience.",
+        "technologies": [
+          "React",
+          "NextJs",
+          "NestJs",
+          "TypeScript",
+          "Tailwind CSS"
+        ]
+      },
+      {
+        "name": "CRM System",
+        "description": "A Customer Relationship Management (CRM) system that helps businesses manage client interactions, track leads, and streamline sales processes for better customer engagement.",
+        "technologies": [
+          "React",
+          "Laravel",
+          "Typo3",
+          "PHP",
+          "MySQL"
+        ]
+      },
+      {
+        "name": "Social Media Platform (Dougly)",
+        "description": "A social media platform for dog lovers that fosters community, sharing, and engagement through an intuitive and enjoyable experience.",
+        "technologies": [
+          "React",
+          "Laravel",
+          "Typo3",
+          "PHP",
+          "MySQL"
+        ]
+      },
+      {
+        "name": "Simple Accounting with Inventory and POS and Time In/Out Feat.",
+        "description": "A simple accounting with inventory together with POS and Employee Time logs tracking. also include the RBAC.",
+        "technologies": [
+          "React/NextJs",
+          "Tailwind CSS",
+          "MirageJs"
+        ],
+        "link": "https://pvt-accounting.vercel.app/"
+      }
+    ]
+  },
   "feedbacks": [
     {
       "name": "Donniver Agnes ",

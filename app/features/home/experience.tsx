@@ -37,7 +37,6 @@ function ExperienceItem({exp}: Readonly<{
           <span className="font-semibold">{exp.role}</span>
           <div className="">
             <span className="text-sm font-normal text-gray-500">{exp.period}</span><br />
-            <span className="text-sm font-normal text-gray-600">{calculateServiceLength(exp.period)}</span>
           </div>
         </CardTitle>
         <CardDescription className="text-gray-600 dark:text-gray-400">{exp.company}</CardDescription>
