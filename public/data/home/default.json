@@ -20,15 +20,14 @@
   },
   "experiences": [
     {
-      "company": "Novare Technologies Inc.",
+      "company": "8C DigIT",
       "role": "Senior Software Engineer",
-      "period": "Feb 2023 — Present",
-      "description": "Responsible for designing, developing, and maintaining high-quality software solutions while ensuring best practices is coding, integrations and documentation.",
+      "period": "Jan 2023 — August 2025",
+      "description": "Led full-stack development with React (Mantine UI), Node.js, and MongoDB, delivering scalable, tested, and seamlessly deployed applications.",
       "responsibilities": [
-        "Develops, test, and deploys robust application solution based on client requirements.",
-        "Conducts code reviews to ensure adherence to coding standards and best practices, and mentors team members to maintain code quality.",
-        "Document system design, deployment process and technical issues for maintainability",
-        "Collaborates with lead engineers to enhance development workflows and explore new technologies."
+        "Reviewed and analyzed Functional Requirements Documents to produce accurate estimates and implementation plans.",
+        "Designed modular, reusable components to enhance scalability, maintainability and code quality.",
+        "Developed and executed unit tests to ensure robust functionality and minimize regressions."
       ]
     },
     {
@@ -134,6 +133,7 @@
       "label": "Databases",
       "items": [
         "MongoDB",
+        "Prisma ORM",
         "MySQL",
         "MSSQL",
         "PostGreSql",
@@ -179,6 +179,7 @@
           "React",
           "NextJs",
           "Nx",
+          "Contentful",
           "Tailwind CSS",
           "Redux/RTQ",
           "Zustand"
@@ -234,6 +235,7 @@
         "technologies": [
           "React",
           "NextJs",
+          "Prisma ORM",
           "NestJs",
           "TypeScript",
           "Tailwind CSS"
