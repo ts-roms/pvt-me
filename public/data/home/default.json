@@ -2,8 +2,12 @@
   "banner": {
     "welcome": "Welcome",
     "iam": "Hi, I`m Roms",
-    "title": "Web Developer",
-    "description": "Results-Driven full-stack developer with hands-on experience in React, Nodejs and MongoDB. Skilled in translating\nbusiness requirements into scalable solutions. Building reusable components, and leading development team. Adept\nat code reviews, unit testing, and deployment processes, ensuring high-quality deliveries and smooth project\nexecution."
+    "title": "Software Engineer",
+    "description": "Results-Driven full-stack developer with hands-on experience in React, Nodejs and MongoDB. Skilled in translating\nbusiness requirements into scalable solutions. Building reusable components, and leading development team. Adept\nat code reviews, unit testing, and deployment processes, ensuring high-quality deliveries and smooth project\nexecution.",
+    "contact": {
+      "email": "rcena.dev@gmail.com",
+      "phone": "+639754120343"
+    }
   },
   "introduction": {
     "heading": "Professional Introduction",
@@ -13,7 +17,7 @@
     ],
     "highlights": [
       "Frontend: React, Next.js, Nx, TypeScript, Tailwind Css, Mantine UI, Redux/RTQ, Storybook, Jest, Playwright,",
-      "Backend: Node.js, Express, NestJs, GraphQL, MongoDB, MySQL, DynamoDB, Firebase RealTime Database, Rest API",
+      "Backend: Node.js, Express, NestJs, GraphQL, MongoDB, Prisma ORM, MySQL, DynamoDB, Firebase RealTime Database, Rest API",
       "Animation/UI: Framer Motion, ShadCn/ui",
       "Practices: Performance, Accessibility, Reusability"
     ]

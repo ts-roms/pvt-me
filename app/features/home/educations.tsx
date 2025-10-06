@@ -14,7 +14,7 @@ export const Educations = () => {
             whileInView={{opacity: 1, y: 0}}
             viewport={{once: true, margin: '-100px'}}
             transition={{duration: 0.35, delay: idx * 0.05}}
-            key={edu.school}
+            key={edu.degree}
             className="pb-5"
           >
             <EducationItem edu={edu}/>
