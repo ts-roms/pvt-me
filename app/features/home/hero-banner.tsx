@@ -17,7 +17,7 @@ export const HeroBanner = () => {
         <div className="flex flex-row items-center justify-center gap-2 mt-4">
           {Object.entries(banner.contact).map(([key, value]) => (
             <div key={key}>
-              <label className="capitalize text-md">{key}:</label>
+              <label className="capitalize text-md">{key}:&nbsp;</label>
               <label className="text-gray-500">{value as string}</label>
             </div>
           ))}
