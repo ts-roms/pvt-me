@@ -1,5 +1,5 @@
 import {motion} from "framer-motion";
-import {useFetcher} from "react-router";
+import {useFetcher, useLoaderData} from "react-router";
 import {Card, CardContent, CardFooter, CardHeader, CardTitle} from "~/components/ui/card";
 import React, {type ChangeEvent, useState} from "react";
 import {submitInquiry} from "~/api/firebase";
@@ -7,6 +7,7 @@ import type {Inquiry, InquiryErrors} from "~/@types/inquiry";
 
 
 export const InquiryForm = () => {
+  const {banner} = useLoaderData();
   return (
     <motion.div
       initial={{opacity: 0, y: 12}}
@@ -27,9 +28,9 @@ export const InquiryForm = () => {
             Prefer email? Reach me at{' '}
             <a
               className="underline underline-offset-2 hover:text-indigo-600"
-              href={`mailto:rcena.dev@gmail.com?subject=Project Inquiry`}
+              href={`mailto:${banner.contact.email}?subject=Inquiry from Portfolio&body=Hi Roms,`}
             >
-              rcena.dev@gmail.com
+              {banner.contact.email}
             </a>
           </p>
         </CardFooter>
