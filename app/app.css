@@ -17,3 +17,27 @@ body {
     color-scheme: dark;
   }
 }
+
+#cards {
+  display: grid;
+  grid-template-rows: repeat(3, 80vh);
+  gap: 20px;
+}
+
+.card {
+  position: sticky;
+  top: 20px;
+  padding-top: calc(var(-index) * 10px);
+}
+
+.card__content {
+  animation: scale linear forwards;
+  animation-timeline: view();
+  animation-range: 25vh 80vh;
+}
+
+@keyframes scale {
+  to {
+    transform: scale(calc(1.05 - (0.05 * var(--reverse-index))));
+  }
+}
