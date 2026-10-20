@@ -27,9 +27,17 @@
     "@types/react": "^19.1.2",
     "@types/react-dom": "^19.1.2",
     "@vercel/react-router": "^1.2.3",
+    "baseline-browser-mapping": "^2.11.30",
     "tailwindcss": "^4.1.4",
     "typescript": "^5.8.3",
     "vite": "^6.3.3",
     "vite-tsconfig-paths": "^5.1.4"
+  },
+  "allowScripts": {
+    "@firebase/util@1.13.0": true,
+    "@tailwindcss/oxide@4.1.13": true,
+    "@vercel/speed-insights@1.2.0": true,
+    "esbuild@0.25.10": true,
+    "protobufjs@7.5.4": true
   }
 }

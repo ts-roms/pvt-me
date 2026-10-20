@@ -47,7 +47,7 @@ function ProjectCard({project}: Readonly<{
               rel="noreferrer"
               className="text-sm font-medium text-indigo-600 hover:underline"
             >
-              View
+              Live
             </a>) : null}
         </CardTitle>
         {project.technologies && project.technologies.length > 0 ? (

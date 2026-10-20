@@ -31,9 +31,9 @@
     }
   },
   "reactRouterConfig": {
-    "appDirectory": "C:/Users/iamroms/Desktop/codespaces/profile/pvt-me/app",
+    "appDirectory": "D:/codespaces/profile/pvt-me/app",
     "basename": "/",
-    "buildDirectory": "C:/Users/iamroms/Desktop/codespaces/profile/pvt-me/build",
+    "buildDirectory": "D:/codespaces/profile/pvt-me/build",
     "future": {
       "v8_middleware": false,
       "unstable_optimizeDeps": false,

@@ -2,71 +2,75 @@
   "banner": {
     "welcome": "Welcome to my portfolio",
     "iam": "Hi, I`m Roms",
-    "title": "Software Engineer",
-    "description": "Results-Driven full-stack developer with hands-on experience in React, Nodejs and MongoDB. Skilled in translating\nbusiness requirements into scalable solutions. Building reusable components, and leading development team. Adept\nat code reviews, unit testing, and deployment processes, ensuring high-quality deliveries and smooth project\nexecution.",
+    "title": "Senior Software Engineer",
+    "description": "Senior Software Engineer with 10+ years of experience building scalable web and mobile applications with React, React Native, Next.js, and TypeScript across fintech, food-tech, enterprise SaaS, and e-commerce. Full-stack capable (Node.js, NestJS, PostgreSQL, AWS), driving front-end architecture, mentoring developers, and shipping production software in Agile teams.",
     "contact": {
       "email": "rcena.dev@gmail.com",
-      "phone": "0927-641-3684",
-      "location": "Remote (WFH)",
+      "phone": "+63 927 641 3684",
+      "location": "Nasipit, Agusan del Norte, Philippines (Remote)",
       "shift": "Reg/Mid Shift (PH Time)"
     }
   },
   "introduction": {
     "heading": "Professional Introduction",
     "paragraphs": [
-      "I'm a Software Engineer specializing in building fast, reliable, and delightful web applications.",
-      "I enjoy crafting clean, scalable frontend with React/Next.js and thoughtful UX, and I collaborate closely with teams to ship features that matter."
+      "I'm a Senior Software Engineer with 10+ years of experience building scalable web and mobile applications across fintech, food-tech, enterprise SaaS, and e-commerce.",
+      "I delivered an ordering platform for a major Philippine fast-food brand serving 500,000+ users and 10,000+ daily transactions, and built a shared component library adopted by four engineering teams."
     ],
     "highlights": [
-      "Frontend: React, Next.js, Nx, TypeScript, Tailwind Css, Mantine UI, Redux/RTQ, Storybook, Jest, Playwright,",
-      "Backend: Node.js, Express, NestJs, GraphQL, MongoDB, Prisma ORM, MySQL, DynamoDB, Firebase RealTime Database, Rest API",
-      "Animation/UI: Framer Motion, ShadCn/ui",
-      "Practices: Performance, Accessibility, Reusability"
+      "Frontend: React.js, Next.js, TypeScript, JavaScript (ES6+), Redux Toolkit, RTK Query, Micro-Frontends, Tailwind CSS, Styled Components, Material UI, Ant Design",
+      "Mobile: React Native (CLI), iOS and Android app releases",
+      "Backend: Node.js, NestJS, Express, FastAPI, GraphQL, REST APIs, C#",
+      "Databases: PostgreSQL, MySQL, SQL Server, MongoDB, DynamoDB, Redis",
+      "Cloud & DevOps: AWS Lambda, API Gateway, Docker, GitHub Actions, GitLab CI/CD",
+      "Testing & Quality: Jest, Vitest, React Testing Library, Cypress, Code Reviews",
+      "Auth & Realtime: OAuth2, OpenID Connect, WebSockets",
+      "AI & Computer Vision: Claude API, YOLO, OpenCV"
     ]
   },
   "experiences": [
     {
-      "company": "8C DigIT",
+      "company": "Novare Technologies Inc.",
       "role": "Senior Software Engineer",
-      "period": "Jan 2023 — August 2025",
-      "description": "Led full-stack development with React (Mantine UI), Node.js, and MongoDB, delivering scalable, tested, and seamlessly deployed applications.",
+      "period": "Feb 2023 — Present",
+      "description": "Delivered the customer-facing ordering and marketing platform for one of the Philippines' largest fast-food brands.",
       "responsibilities": [
-        "Reviewed and analyzed Functional Requirements Documents to produce accurate estimates and implementation plans.",
-        "Designed modular, reusable components to enhance scalability, maintainability and code quality.",
-        "Developed and executed unit tests to ensure robust functionality and minimize regressions."
+        "Served 500,000+ registered users across 300+ stores, processing 10,000+ daily transactions.",
+        "Designed and built a shared React component library adopted by four engineering teams, speeding up feature delivery by 20%.",
+        "Partnered with engineering leadership on the technical roadmap, front-end architecture decisions, and Agile delivery improvements.",
+        "Strengthened production stability through code reviews, performance optimization, and front-end architecture refactors; mentored developers on React and TypeScript practices."
       ]
     },
     {
       "company": "StarTechUp Inc",
       "role": "Full‑Stack Developer",
-      "period": "Sept 2022 — Feb. 2023",
-      "description": "Contributed to a mobile-first social media app using React (TypeScript) and Node.js, enhancing UI/UX, implementing reports, and improving scalability and performance.",
+      "period": "Sept 2022 — Jan 2023",
+      "description": "Built core features for a mobile-first social networking platform using React, TypeScript, and Node.js.",
       "responsibilities": [
-        "Helped standardize UI components and enhance UX/UI for a consistent, responsive user experience.",
-        "Assisted in reviewing designs and implementing graph-based reports to track key metrics and inform decisions.",
-        "Supported improving features for greater scalability, performance, and maintainability."
+        "Resolved 20+ front-end and API integration issues, significantly reducing post-release defects.",
+        "Standardized reusable UI components and design patterns, improving consistency and reducing QA-reported UI defects.",
+        "Built analytics dashboards and reporting features for product stakeholders."
       ]
     },
     {
-      "company": "Accenture Inc. PH",
+      "company": "Accenture Philippines",
       "role": "Application Developer",
       "period": "Feb. 2021 — Sept. 2022",
-      "description": "Developed and maintained responsive front-end features for e-commerce and insurance websites using React (TypeScript), integrating APIs, optimizing designs, and ensuring best practices across the development lifecycle.",
+      "description": "Delivered React and TypeScript features for enterprise e-commerce and insurance platforms, meeting 100% of sprint commitments.",
       "responsibilities": [
-        "Contributed to daily stand-ups, conducted code reviews, and upheld best practices across the development lifecycle.",
-        "Translated designs into optimized, production-ready code in close collaboration with architects and the team.",
-        "Integrated RESTful APIs, third-party services, and wrote unit tests to ensure a seamless, scalable user experience."
+        "Integrated payment gateways and third-party insurance APIs with resilient retry and error-handling strategies.",
+        "Diagnosed and resolved production incidents across front end, backend APIs, and database layers, working with architects and backend engineers to improve reliability."
       ]
     },
     {
-      "company": "Desk BPO Services (formerly Deskma)",
-      "role": "Full-stack developer",
+      "company": "Desk BPO Services (Deskma)",
+      "role": "Full-Stack Developer",
       "period": "Apr. 2019 — Feb. 2021",
       "responsibilities": [
-        "Designed and built responsive, mobile-optimized websites and interfaces using React.js and TYPO3, ensuring a seamless user experience.",
-        "Partnered with backend developers (Laravel), designers, and marketing teams to maintain brand consistency and align features with business goals.",
-        "Integrated RESTful APIs and supported backend teams by troubleshooting and enhancing data flow across the stack.",
-        "Developed, deployed, and refactored scalable, maintainable components to boost performance, reliability, and user engagement."
+        "Architected and built a full-featured CRM platform (React, Node.js, NestJS, PostgreSQL) covering booking, quotations, job scheduling, employee management, timekeeping, and reporting, with role-based access control.",
+        "Integrated third-party CRM and logistics APIs to automate workflows and improve data consistency, reducing support requests.",
+        "Owned production support for critical business modules with zero client escalations throughout the engagement.",
+        "Independently designed and delivered a community platform connecting 500+ dog owners and walkers in six weeks."
       ]
     },
     {
@@ -74,90 +78,118 @@
       "role": "Software Engineer",
       "period": "Feb. 2018 — Apr. 2019",
       "responsibilities": [
-        "Built and maintained a C# WinForms desktop app with a focus on clean, maintainable code.",
-        "Worked closely with cross-functional teams to capture requirements and deliver new features.",
-        "Optimized MySQL queries and schema for efficient data handling and performance.",
-        "Reviewed code and provided constructive feedback to ensure high-quality, scalable solutions."
+        "Maintained and enhanced POS, inventory, and hotel management systems.",
+        "Conducted code reviews for the development team, achieving zero critical production defects across multiple release cycles."
       ]
     },
     {
-      "company": "RD Pawnshop Inc.",
-      "role": "Software Engineer",
-      "period": "Nov 2017 — Feb. 2018",
+      "company": "Self-Employed",
+      "role": "Software Developer (Freelance)",
+      "period": "2016 — 2018",
       "responsibilities": [
-        "Refactored and maintained the in-house C# WinForms desktop application to boost performance and reliability.",
-        "Conducted dry-run testing and validated functionality to ensure data accuracy and efficiency."
-      ]
-
-    },
-    {
-      "company": "Wizard I.T. Systems Inc.",
-      "role": "Web Developer",
-      "period": "Feb. 2016 — Jul. 2017",
-      "description": "Shipped UI components and design systems with React, Tailwind, and Storybook; collaborated closely with design and product teams.",
-      "responsibilities": [
-        "Designed and built front-end applications using native HTML, Bootstrap, CSS, and vanilla JavaScript, with reusable components and client-side rendering via AJAX.",
-        "Developed PHP server-side logic with MySQL (including stored procedures) to support dynamic content and efficient data handling."
+        "Delivered custom web applications and POS systems for retail and utility businesses using PHP, MySQL, and C#."
       ]
     }
   ],
   "techStack": [
     {
-      "label": "Core",
-      "items": [
-        "TypeScript",
-        "JavaScript",
-        "Node.js"
-      ]
-    },
-    {
       "label": "Frontend",
       "items": [
         "React",
         "Next.js",
+        "TypeScript",
+        "JavaScript (ES6+)",
+        "Redux Toolkit",
+        "RTK Query",
+        "Micro-Frontends",
+        "HTML5",
+        "CSS3",
         "Tailwind CSS",
-        "ShadCN/ui",
-        "Framer Motion",
-        "Redux/RTQ",
-        "AntDesign",
-        "MaterialUI",
-        "Styled-Components"
+        "Styled Components",
+        "Material UI",
+        "Ant Design"
+      ]
+    },
+    {
+      "label": "Mobile",
+      "items": [
+        "React Native (CLI)",
+        "iOS Releases",
+        "Android Releases"
       ]
     },
     {
       "label": "Backend & APIs",
       "items": [
+        "Node.js",
+        "NestJS",
         "Express",
-        "NodeJs",
-        "NestJs",
+        "FastAPI",
         "GraphQL",
-        "JWT/Auth",
-        "Rest API"
+        "REST APIs",
+        "C#"
       ]
     },
     {
       "label": "Databases",
       "items": [
-        "MongoDB",
-        "Prisma ORM",
+        "PostgreSQL",
         "MySQL",
-        "MSSQL",
-        "PostGreSql",
+        "SQL Server",
+        "MongoDB",
         "DynamoDB",
-        "Firebase RealTime Database"
+        "Redis"
+      ]
+    },
+    {
+      "label": "Cloud & DevOps",
+      "items": [
+        "AWS Lambda",
+        "API Gateway",
+        "Docker",
+        "GitHub Actions",
+        "GitLab CI/CD"
+      ]
+    },
+    {
+      "label": "Testing & Quality",
+      "items": [
+        "Jest",
+        "Vitest",
+        "React Testing Library",
+        "Cypress",
+        "Unit & Integration Testing",
+        "Code Reviews"
+      ]
+    },
+    {
+      "label": "Auth & Realtime",
+      "items": [
+        "OAuth2",
+        "OpenID Connect",
+        "WebSockets"
+      ]
+    },
+    {
+      "label": "AI & Computer Vision",
+      "items": [
+        "Claude API",
+        "YOLO",
+        "OpenCV"
       ]
     },
     {
       "label": "Tools",
       "items": [
         "Git",
-        "Nx",
-        "Vite",
-        "Jest",
-        "Playwright",
-        "Github",
+        "GitHub",
         "GitLab",
-        "BitBucket"
+        "Bitbucket",
+        "Jira",
+        "Agile/Scrum",
+        "GitHub Copilot",
+        "Claude",
+        "ChatGPT"
       ]
     }
   ],
@@ -165,119 +197,182 @@
     {
       "school": "Saint Michael College of Caraga",
       "degree": "B.S. in Computer Science",
-      "period": "2011 — 2014",
+      "period": "Coursework completed, 2015",
       "description": ""
     },
     {
       "school": "Saint Michael College of Caraga",
-      "degree": "Computer Programming NC-IV - Vocational Course",
-      "period": "2009 — 2011",
+      "degree": "Information Technology (Vocational)",
+      "period": "",
       "description": ""
+    },
+    {
+      "school": "Udemy / LinkedIn Learning",
+      "degree": "Certifications",
+      "period": "",
+      "description": "React, Next.js, Redux, Node.js & GraphQL (Udemy) • React Native Development (Udemy) • Serverless React on AWS (LinkedIn Learning) • React Authentication (LinkedIn Learning)"
     }
   ],
   "projects": {
-    "description": "Hands-on experience in full-cycle project development, from planning and implementation to optimization and deployment--across diverse business solutions.",
+    "description": "Hands-on experience in full-cycle project development, from planning and implementation to optimization and deployment.",
     "projects": [
       {
-        "name": "Marketing Sites",
-        "description": "Dynamic, mobile-optimized marketing platforms that highlight brand identity, promotions, and customer engagement for Red Ribbon, Burger King and Greenwich.",
+        "name": "Smart Catch",
+        "slug": "smart-catch",
+        "description": "AI-powered mobile app, independently built, that identifies 50+ Philippine fish species with ~92% accuracy, estimates weight and market value, and predicts seasonal availability. Published on iOS and Android; computer-vision inference returns results in under two seconds.",
+        "overview": "Mobile app for fishers and market buyers that recognizes a fish from a photo and turns it into practical market information.",
         "technologies": [
+          "React Native",
           "React",
-          "NextJs",
-          "Nx",
-          "Contentful",
-          "Tailwind CSS",
-          "Redux/RTQ",
-          "Zustand"
-        ]
-      },
-      {
-        "name": "Order Manager",
-        "description": "An intuitive Order Manager that simplifies order processing, inventory updates, and customer coordination in one dashboard.",
-        "technologies": [
-          "React",
-          "NextJs",
-          "Tailwind CSS",
-          "Redux/RTQ",
-          "Zustand"
-        ]
-      },
-      {
-        "name": "Loan Management System",
-        "description": "A Loan Management System that streamlines loan applications, approvals, and tracking to improve efficiency and user experience.",
-        "technologies": [
-          "React",
-          "NextJs",
-          "Mantine UI",
-          "NodeJs/Express",
-          "Tailwind CSS",
-          "MongoDB"
-        ]
-      },
-      {
-        "name": "Social Media Platform (Feety)",
-        "description": "A mobile-first social media platform for foot enthusiasts to connect, share, and engage through an intuitive and responsive experience.",
-        "technologies": [
-          "React",
-          "Tailwind CSS",
-          "NodeJs/Express",
-          "MongoDB"
-        ]
-      },
-      {
-        "name": "eCommerce Website",
-        "description": "An eCommerce website for wine that streamlines online sales, enhances customer experience, and simplifies product discovery and purchase.",
-        "technologies": [
-          "React",
-          "TypeScript",
-          "Tailwind CSS",
-          "Contentful",
-          "AWS/DynamoDB"
-        ]
-      },
-      {
-        "name": "Health Insurance Web Application",
-        "description": "A health insurance website that simplifies policy browsing, enrollment, and management for an accessible and user-friendly experience.",
-        "technologies": [
-          "React",
-          "NextJs",
-          "Prisma ORM",
-          "NestJs",
-          "TypeScript",
-          "Tailwind CSS"
-        ]
-      },
-      {
-        "name": "CRM System",
-        "description": "A Customer Relationship Management (CRM) system that helps businesses manage client interactions, track leads, and streamline sales processes for better customer engagement.",
-        "technologies": [
-          "React",
-          "Laravel",
-          "Typo3",
-          "PHP",
-          "MySQL"
-        ]
-      },
-      {
-        "name": "Social Media Platform (Dougly)",
-        "description": "A social media platform for dog lovers that fosters community, sharing, and engagement through an intuitive and enjoyable experience.",
-        "technologies": [
-          "React",
-          "Laravel",
-          "Typo3",
-          "PHP",
-          "MySQL"
-        ]
-      },
-      {
-        "name": "Simple Accounting with Inventory and POS and Time In/Out Feat.",
-        "description": "A simple accounting with inventory together with POS and Employee Time logs tracking. also include the RBAC.",
-        "technologies": [
-          "React/NextJs",
-          "Tailwind CSS",
-          "MirageJs"
+          "FastAPI",
+          "YOLO",
+          "OpenCV",
+          "Claude AI"
         ],
-        "link": "https://pvt-accounting.vercel.app/"
+        "features": [
+          "Identifies 50+ Philippine fish species at ~92% accuracy",
+          "Estimates weight and market value from the photo",
+          "Predicts seasonal availability",
+          "On-device capture with computer-vision inference in under two seconds",
+          "Published on iOS and Android"
+        ],
+        "screenshots": []
+      },
+      {
+        "name": "Healthcare Management",
+        "slug": "healthcare-management",
+        "description": "Patient records and provider–patient coordination workflows with role-based access control.",
+        "overview": "Web platform for managing patient records and coordinating between providers and patients.",
+        "technologies": [
+          "React",
+          "TypeScript",
+          "NestJS",
+          "PostgreSQL",
+          "Redis"
+        ],
+        "features": [
+          "Patient records management",
+          "Provider–patient coordination workflows",
+          "Role-based access control",
+          "Redis caching for fast lookups"
+        ],
+        "screenshots": [],
+        "link": "https://healthcare-ms.up.railway.app"
+      },
+      {
+        "name": "Accounting Suite",
+        "slug": "accounting-suite",
+        "description": "General ledger, chart of accounts, AP/AR, reconciliation, financial reporting, and audit trails.",
+        "overview": "Double-entry accounting system covering day-to-day bookkeeping through to financial reporting.",
+        "technologies": [
+          "React",
+          "TypeScript",
+          "NestJS",
+          "PostgreSQL",
+          "Redis"
+        ],
+        "features": [
+          "General ledger and chart of accounts",
+          "Accounts payable and receivable (AP/AR)",
+          "Bank reconciliation",
+          "Financial reporting",
+          "Audit trails on every change"
+        ],
+        "screenshots": [],
+        "link": "https://acme-accounting.up.railway.app"
+      },
+      {
+        "name": "Point of Sale (POS)",
+        "slug": "pos",
+        "description": "Real-time sales, inventory and low-stock monitoring, pricing and promotions, Stripe payments, and sales analytics.",
+        "overview": "Web-based point of sale with live inventory and sales analytics.",
+        "technologies": [
+          "React",
+          "TypeScript",
+          "NestJS",
+          "PostgreSQL",
+          "Redis"
+        ],
+        "features": [
+          "Real-time sales processing",
+          "Inventory and low-stock monitoring",
+          "Pricing and promotions",
+          "Stripe payments",
+          "Sales analytics"
+        ],
+        "screenshots": [],
+        "link": "https://pos-web.up.railway.app"
+      },
+      {
+        "name": "Smart Finances",
+        "slug": "smart-finances",
+        "description": "Loan origination platform with borrower onboarding, approval workflows, and audit-ready financial records.",
+        "overview": "Loan origination platform that takes borrowers from onboarding to approval.",
+        "technologies": [
+          "React",
+          "TypeScript"
+        ],
+        "features": [
+          "Borrower onboarding",
+          "Loan approval workflows",
+          "Audit-ready financial records"
+        ],
+        "screenshots": []
+      },
+      {
+        "name": "Teachers Performance Evaluation System",
+        "slug": "teachers-evaluation",
+        "description": "Faculty assessment platform with multi-source evaluations, reporting, and analytics.",
+        "overview": "Faculty assessment platform for schools.",
+        "technologies": [
+          "React",
+          "TypeScript"
+        ],
+        "features": [
+          "Multi-source evaluations",
+          "Reporting",
+          "Analytics"
+        ],
+        "screenshots": []
+      },
+      {
+        "name": "CRM Platform",
+        "slug": "crm-platform",
+        "description": "Full-featured CRM covering booking, quotations, job scheduling, employee management, timekeeping, and reporting, with role-based access control.",
+        "overview": "Full-featured CRM built for a service business, with role-based access control.",
+        "technologies": [
+          "React",
+          "Node.js",
+          "NestJS",
+          "PostgreSQL"
+        ],
+        "features": [
+          "Booking and quotations",
+          "Job scheduling",
+          "Employee management and timekeeping",
+          "Reporting",
+          "Third-party CRM and logistics API integrations"
+        ],
+        "screenshots": []
+      },
+      {
+        "name": "Community Platform (Dougly)",
+        "slug": "dougly",
+        "description": "Community platform connecting 500+ dog owners and walkers, delivered independently in six weeks.",
+        "overview": "Community platform connecting dog owners and walkers, designed and delivered independently in six weeks.",
+        "technologies": [
+          "React",
+          "Laravel",
+          "Typo3",
+          "PHP",
+          "MySQL"
+        ],
+        "features": [
+          "Connects 500+ dog owners and walkers",
+          "Community sharing and engagement",
+          "Delivered end to end by one developer"
+        ],
+        "screenshots": []
       }
     ]
   },
